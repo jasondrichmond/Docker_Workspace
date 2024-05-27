@@ -1,0 +1,1 @@
+docker run --detach --name my_mariadb --env MARIADB_ROOT_PASSWORD=Testing123! --network myNetwork -p 3306:3306 -v d:/docker/volumes/mariadb:/var/lib/mysql mariadb:latest

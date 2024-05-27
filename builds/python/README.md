@@ -1,0 +1,1 @@
+docker run -t -d -p 22:22 --name cftbot -v "C:\Docker\volume\python:/app" cftbot:v1

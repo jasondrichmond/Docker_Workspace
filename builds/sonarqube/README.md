@@ -1,0 +1,1 @@
+docker run --privileged -d -p 9000:9000 --name sonarqube sonarqube:9.9.3-community

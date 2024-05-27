@@ -1,0 +1,1 @@
+docker run -d -p 2223:22 --name phpcs phpcs

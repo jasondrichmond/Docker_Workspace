@@ -1,0 +1,1 @@
+docker run --detach --name newrelic-infra --network=myNetwork --cap-add=SYS_PTRACE --privileged --pid=host --volume "/:/host:ro" --volume "/var/run/docker.sock:/var/run/docker.sock" --volume "newrelic-infra:/etc/newrelic-infra" --env NRIA_LICENSE_KEY= newrelic/infrastructure:latest
